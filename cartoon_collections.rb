@@ -6,8 +6,11 @@ def summon_captain_planet(planeteer_calls)
   planeteer_calls.collect {|name| name.capitalize.insert(-1, "!")}
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(array)
+  array.each do |call| 
+    length = call.length
+    length.include?(4)
+  end
 end
 
 def find_the_cheese# code an argument here
