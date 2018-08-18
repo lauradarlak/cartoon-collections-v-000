@@ -7,7 +7,7 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(array)
-  array.collect {|call| call.length}.include?(4)
+  array.any? {|call| call.length > 4}
 end
 
 # iterate over each call and find the length
