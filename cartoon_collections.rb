@@ -11,7 +11,7 @@ def long_planeteer_calls(array)
 end
 
 # iterate over each call and find the length
-# if the length is greater than 3 
+# if the length is greater than 3
 
 def find_the_cheese# code an argument here
   # the array below is here to help
