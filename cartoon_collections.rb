@@ -13,7 +13,8 @@ end
 # iterate over each call and find the length
 # if the length is greater than 3
 
-def find_the_cheese# code an argument here
+def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+  array.find{|food| food.include?(cheese_types)}
 end
